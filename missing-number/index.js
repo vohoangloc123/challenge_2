@@ -22,6 +22,7 @@ const inputArray = [3, 7, 1, 2, 6, 4]; // n = 6
 
 try {
     const missingNumber = findMissingNumber(inputArray);
+    console.log("Mảng:", inputArray);
     console.log("Số bị thiếu là:", missingNumber); // Kết quả sẽ là 5
 } catch (error) {
     console.error(error.message);
